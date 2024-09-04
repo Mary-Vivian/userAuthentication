@@ -1,0 +1,5 @@
+<form method="post">
+    {% csrf_token %}
+    <input type="email" name="email" placeholder="Enter the email of the user you want to invite" required>
+    <button type="submit">Send Invitation</button>
+</form>
